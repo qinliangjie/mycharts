@@ -1,0 +1,187 @@
+.page_index{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url(../img/bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.head_Title{
+	width: 100%;
+    text-align: center;
+    color: white;
+	font-size: 1.4rem;
+    line-height: 3rem;
+}
+.title_box{
+	width: 100%;
+	height: 0;
+	padding-bottom:2.5%;
+}
+.clear{
+	clear: both;
+}
+.body_Content{
+	width: 98%;
+    margin: 1%;
+}
+.body_3{
+	width: 33%;
+    float: left;
+    margin-right: 0.5%;
+}
+.body_3:nth-child(3n){
+	margin-right:0;
+}
+.box_474{
+	width: 100%;
+	height: 0;
+	padding-bottom:47.4%;
+	background: url(../img/t4.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 2%;
+}
+.box_474:nth-child(2n){
+	margin-bottom: 0
+}
+.box_105{
+	width: 100%;
+	height: 0;
+	padding-bottom:97.05%;
+	background: url(../img/t5.png) no-repeat;
+    background-size: 100% 100%;
+}
+.body_1{
+	width: 100%;
+    float: left;
+    margin-top:.6%;
+    margin-bottom: .6%
+}
+.box_19{
+	width: 100%;
+	height: 0;
+	padding-bottom:19%;
+	background: url(../img/t3.png) no-repeat;
+    background-size: 100% 100%;
+}
+.shiled_title{
+	color: white;
+	font-size: 1vw;
+	padding:20px;
+}
+.progress {
+    height: 20px;
+    float: left;
+   	width: 80%;
+    overflow: hidden;
+    background-color:#1E2961 ;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.blueprogress{
+	background: -webkit-linear-gradient(left, #203dec , #21a2ec); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #203dec , #21a2ec); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #203dec , #21a2ec); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #203dec , #21a2ec); /* 标准的语法（必须放在最后） */
+}
+.redprogress{
+	background: -webkit-linear-gradient(left, #ec2020 , #e45e9a); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #ec2020 , #e45e9a); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #ec2020 , #e45e9a); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #ec2020 , #e45e9a);
+}
+.purpleprogress{
+	background: -webkit-linear-gradient(left, #9320ec , #a67fe9); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #9320ec , #a67fe9); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #9320ec , #a67fe9); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #9320ec , #a67fe9);
+}
+.orgprogress{
+	background: -webkit-linear-gradient(left, #ec7720 , #f09a61); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #ec7720 , #f09a61); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #ec7720 , #f09a61); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #ec7720 , #f09a61);
+}
+.greedprogress{
+	background: -webkit-linear-gradient(left, #20ec2a , #7fe995); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #20ec2a , #7fe995); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #20ec2a , #7fe995); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #20ec2a , #7fe995);
+}
+.pro_count{
+	float: left;
+    color: #00FFFC;
+    padding-left: 10px
+}
+.sr-only{
+	
+}
+.l_titile{
+	float: left;
+    width: 20%;
+    font-size: .7vw;
+    color: white;
+    text-align: right;
+}
+.r_process{
+	float: left;
+    width: 80%;
+}
+.mb20{
+		margin-bottom: 1.2vw
+}
+.mb30{
+		margin-bottom: 2vw
+}
+.ml20{
+	margin-left: 20px
+}
+.l_count{
+	float: left;
+    width: 50%;
+}
+.c_title{
+	color: white;
+    padding: 30px 0 10px 20px;
+}
+.c_number{
+	float: left;
+	width: 100%
+}
+.c_all{
+	float: left;
+	width: 100%;
+	margin-top:10px;
+}
+.c_all span{
+	display: inline-block;
+	color: white
+}
+.c_all span:last-child{
+	margin-left: 10px;
+	color:#3F9EFF;
+	font-size: 1vw;
+}
+.show_number{
+	font-size: 2vw;
+    width: 1.2vw;
+    height: 2.8vw;
+    color: #00FFFC;
+    line-height: 2.8vw;
+    background: #2D355F;
+    float: left;
+    margin-right: 5px
+}
