@@ -1,3 +1,6 @@
+body{
+    margin: 0
+}
 .page_index{
 	margin: 0;
     padding: 0;
@@ -49,6 +52,21 @@
 	padding-bottom:97.05%;
 	background: url(../img/t5.png) no-repeat;
     background-size: 100% 100%;
+}
+.box_128{
+   width: 100%;
+    height: 0;
+    padding-bottom:12.8%;
+    background: url(../img/t1.png) no-repeat;
+    background-size: 100% 100%; 
+    margin-bottom: 2%;
+}
+.box_820{
+     width: 100%;
+    height: 0;
+    padding-bottom:82%;
+    background: url(../img/t2.png) no-repeat;
+    background-size: 100% 100%; 
 }
 .body_1{
 	width: 100%;
@@ -144,18 +162,22 @@
 		margin-bottom: 1.2vw
 }
 .mb30{
-		margin-bottom: 2vw
+		margin-bottom: 1.5vw
 }
 .ml20{
 	margin-left: 20px
 }
 .l_count{
 	float: left;
-    width: 50%;
+    width: 40%;
 }
 .c_title{
 	color: white;
     padding: 30px 0 10px 20px;
+}
+.e_title{
+    color: white;
+    padding:10px 0 10px 20px;
 }
 .c_number{
 	float: left;
@@ -184,4 +206,86 @@
     background: #2D355F;
     float: left;
     margin-right: 5px
+}
+.workerNum{
+    display: inline-block;
+    float: right;
+    color: #00FFFC;
+    font-size: 0.8vw;
+}
+.test_title{
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    padding:20px;
+    color: #3F9EFF
+}
+.item_test{
+    width: 80%;
+    margin-bottom: 1.3vw;
+    font-size: .9vw;
+    color: white;
+    text-align: left;
+    padding-left: 20%
+}
+.item_test span{
+    color: #00FFFC
+}
+#emergency{
+    width: 70%;
+    float: left;
+}
+.emergency_list{
+   width: 26%;
+    float: left;
+    margin-right: 4%;
+    background-color: #2D355F;
+}
+.emergency_list p{
+    text-align: center;
+    font-size: 1vw;
+    color: #3F9EFF;
+    margin: 7px;
+}
+.pb0{
+    padding-bottom: 0
+}
+.emergency_item{
+    float: left;
+    width: 60%;
+    border: 1px solid #00FFFC;
+    font-size: .7vw;
+    /* line-height: .8vw; */
+    margin-left: 20%;
+    color: #00FFFC;
+    padding: 2px 0;
+    text-align: center;
+    margin-bottom: .5vw;
+    cursor: default;
+}
+.head_item{
+    width: 25%;
+    float: left;
+    color: white;
+    margin-top: 1vw;
+    text-align: center;
+}
+.head_item p{
+    margin: 0;
+    font-size: .8vw;
+}
+.head_item p:first-child{
+    font-size: 1.2vw;
+}
+.ratio{
+    float: left;
+    color: white;
+    font-size: 0.8vw;
+    margin-right: 20px
+}
+.ratio p{
+    margin: 0
+}
+.ratio p:last-child{
+    font-size: 1.4vw
 }

@@ -3,6 +3,8 @@ window.onresize=function(){
     var chart = Highcharts.chart('container',options);
     setHeight('workerChart','piechatrs','piechatrsTitle');
     var piechart = Highcharts.chart('workerChart',pieoptions);
+    setHeight('emergency','emrgchatrs','emrgchatrsTitle');
+    var emrgchart = Highcharts.chart('emergency',emrgoptions);
 };
 function setHeight(b1,b2,b3){
     var mychart  = document.getElementById(b1);
@@ -22,6 +24,7 @@ function setHeight(b1,b2,b3){
 }
 setHeight('container','chatrs','shiledTitle');
 setHeight('workerChart','piechatrs','piechatrsTitle');
+setHeight('emergency','emrgchatrs','emrgchatrsTitle');
 var options = {
     chart:{
         backgroundColor: 'rgba(0,0,0,0)'
@@ -107,6 +110,61 @@ var pieoptions =  {
 			]
     }]
 }
-
+var emrgoptions = {
+    chart:{
+        backgroundColor: 'rgba(0,0,0,0)'
+    },
+    legend: {
+        align: 'left',
+        verticalAlign:'middle',
+        layout: "vertical",
+        itemStyle: {
+                        color: 'white'
+                    }
+    },
+    title: {
+        text: null
+    },
+    tooltip: {
+        headerFormat: '{series.name}<br>',
+        pointFormat: '{point.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: false
+            },
+            showInLegend: true // 设置饼图是否在图例中显示
+        }
+    },
+    series: [{
+        type: 'pie',
+        name: '应急指挥',
+        data: [ 
+                {  name: '考生身体不适',
+                   y: 18,
+                   color: "#427FFE"
+                },
+                {
+                   name: '试卷异常',
+                   y: 12,
+                   color:"#e45e67"
+                },
+                {
+                   name: '设备异常',
+                   y: 35,
+                   color: "#A67FE9"
+                },
+                {  
+                    name: '其他',
+                    y: 35,
+                    color:"#F09B62"
+                 }
+            ]
+    }]
+}
 var chart = Highcharts.chart('container',options);
 var piechart = Highcharts.chart('workerChart',pieoptions);
+var emrgchart = Highcharts.chart('emergency',emrgoptions);
